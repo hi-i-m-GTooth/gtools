@@ -1,0 +1,7 @@
+dir=$1
+if [ "$dir" = "" ]
+then
+	echo "Please specify a dir to create .gitignore."
+else
+	printf '*\n!.gitignore' > $dir/.gitignore
+fi

@@ -4,5 +4,5 @@ current_dir=$(pwd)
 chmod +x *
 chmod -x ./install.sh
 chmod -x .git README.md
-echo "export PATH=\"${current_dir}:$PATH\"" >> ~/.bashrc
+echo "export PATH=\"${current_dir}:\$PATH\"" >> ~/.bashrc
 source ~/.bashrc

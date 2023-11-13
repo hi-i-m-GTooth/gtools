@@ -1,0 +1,9 @@
+# still no parent dir
+url=$1
+
+retry=1
+rto=10
+to=15
+
+wget $url -P $zip_dir \
+--retry-connrefused --waitretry=$retry --read-timeout=$rto --timeout=$to -t 0

@@ -1,1 +1,1 @@
-ls /home/guest/r11922a16/miniconda3/envs
+ls $CONDA_PREFIX/envs

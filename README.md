@@ -15,7 +15,8 @@ bash install.sh
 * **gits** - `git status`.
 * **gitig** - Create `.gitignore` to the path in your input arg.
 ### Linux system
-* **sbrc** - `source ~/.bashrc`
+* **gsh** - create GTooth-styled `bash` template file.
+* **sbrc** - `source ~/.bashrc`.
 * **oo** - If using VScode, exit without leaving zombies.
 ### Others
 * **gd** - Given gdrive id, `gdown` it.
